@@ -15,15 +15,14 @@
         body {
             font-family: 'Montserrat', sans-serif;
             font-weight: 200;
-            color: white;
-            background: black;
+            color: var(--tg-theme-text-color);
+            background: var(--tg-theme-bg-color);
         }
 
         #main {
             width: 100%;
             padding: 20px;
             text-aling: center;
-            background: #2f3330;
         }
 
         h1 {
@@ -32,7 +31,7 @@
         }
 
         img {
-            width: 135px;
+            width: 70px;
             margin: 30px auto;
         }
 
@@ -51,12 +50,12 @@
             font-weight: 500;
             cursor: pointer;
             transition: all 50ms ease;
-            color: green;
-            background: #d6d2d2;
+            color: var(tg-theme-button-color);
+            background: var(tg-theme-button-text-color);
         }
 
         button:hover {
-            background: black;
+            background: var(tg-theme-secondary-button-color);
         }
     </style>
 </head>
@@ -64,9 +63,8 @@
     <div id="main">
         <h1>Онлайн магазин</h1>
         <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png">
-        <p>Просто пицца.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantiun ipsum magni, molestias.</p>
         <button id="buy">Купить</button>
     </div>
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </body>
 </html>
