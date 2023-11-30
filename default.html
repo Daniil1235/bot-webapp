@@ -100,8 +100,8 @@
         let name = document.getElementById("user_name");
         let form = document.getElementById("form");
         buy.addEventListener("click", () => {
-            main.style.display = none;
-            form.style.display = block;
+            main.style.display = "none";
+            form.style.display = "block";
             name.value = tg.initDataUnsafe.user.first_name + " " + tg.initDataUnsafe.user.last_name
         })
         order.addEventListener("click", () => {
